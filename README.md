@@ -1,14 +1,12 @@
 # Eye_face_tracker
 
-RetinaFace is a state-of-the-art deep learning-based facial detection system for Python. Originally implemented using the MXNet framework, it has gained popularity for its accuracy in detecting faces and facial landmarks. A TensorFlow-based re-implementation by Stanislas Bertrand has further extended its accessibility. RetinaFace stands out for its superior accuracy and speed compared to other facial detection methods such as dlib, SSD, and MTCNN. Its efficient architecture makes it a preferred choice for applications where both precision and real-time processing are crucial.
-
-
+Eye Face Tracker is a real-time head pose and blink detection application implemented in Python. It utilizes the MediaPipe library for robust facial landmark detection, enabling accurate tracking of head movements and eye blinks. This application is designed for various use cases, including user interaction, accessibility, and gaze-controlled interfaces. With its ability to recognize head orientation and blinking, Eye Face Tracker provides an intuitive way to interact with devices without traditional input methods.
 
 ## Features
-
-- Accurate detection of faces and facial landmarks
-- Efficient and fast processing
-- Implementation in both MXNet and TensorFlow (note: this is the TensorFlow implementation.)
+Real-time head pose estimation: Accurately determines the user's head orientation (up, down, left, right, forward).
+Blink detection: Monitors eye blinks and counts total blinks over time, enhancing user engagement and interaction.
+Facial landmark tracking: Identifies and visualizes key facial features, providing insights into user expressions.
+Cross-platform compatibility: Built with standard libraries, making it easy to run on various operating systems.
 
 
 
@@ -49,22 +47,18 @@ Linux/macOS:
 
 
 
-- Install RetinaFace:
+- Install requirements:
 
 
 ```bash
-  pip install retina-face
+  pip install -r requirements.txt
 ```
 
-- Set the image path
-
-  Modify the line ``` 
-  img_path = "path to input image" ``` in the retina_face.py file to the path of ```input_img.jpg```
 
 - Run the script:
 
 ```bash
-  python retina_face.py
+  python app.py
 ```
 
 
