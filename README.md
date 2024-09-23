@@ -68,6 +68,6 @@ Linux/macOS:
 
 ## output result
 
-![Output Example](https://github.com/Anandukc/Face_detection_retina_face/raw/main/output_result.png](https://github.com/Anandukc/Eye_face_tracker/blob/main/output.png)
+![Output Example](https://github.com/Anandukc/Eye_face_tracker/blob/main/output.png)
 
 
