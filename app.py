@@ -11,7 +11,7 @@ import time
 import csv
 from datetime import datetime
 import os
-from AngleBuffer import AngleBuffer
+from Buffer import AngleBuffer
 
 USER_FACE_WIDTH = 140  # [mm]
 NOSE_TO_CAMERA_DISTANCE = 600  # [mm]
