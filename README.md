@@ -40,7 +40,7 @@ Linux/macOS:
 
 
 ```bash
-  git clone https://github.com/Anandukc/Face_detection_retina_face.git
+  git clone https://github.com/Anandukc/Face_detection_retina_face.git](https://github.com/Anandukc/Eye_face_tracker.git
 ```
 
 
