@@ -11,7 +11,7 @@ import time
 import csv
 from datetime import datetime
 import os
-from Buffer import AngleBuffer
+from AngleBuffer import AngleBuffer
 
 USER_FACE_WIDTH = 140  # [mm]
 NOSE_TO_CAMERA_DISTANCE = 600  # [mm]
@@ -460,4 +460,5 @@ finally:
     cv.destroyAllWindows()
     if PRINT_DATA:
         print("Program exited successfully.")
+
 
